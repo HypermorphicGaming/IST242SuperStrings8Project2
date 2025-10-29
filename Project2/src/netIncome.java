@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Netincome{
+public class netIncome{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter total revenue: ");
