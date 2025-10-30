@@ -1,7 +1,7 @@
 package taxCalculator;
 
 public class taxCalculator {
-    public double calculateSoMFSTax(double income) {
+    public static double calculateSoMFSTax(double income) {
         double tax;
 
         if (income <= 7300) {
@@ -30,7 +30,7 @@ public class taxCalculator {
         }
         return tax;
     }
-    public double calculateMFJTax(double income){
+    public static double calculateMFJTax(double income){
         double tax;
         if (income <= 14600) {
             tax = 0;
@@ -58,7 +58,7 @@ public class taxCalculator {
         }
         return tax;
     }
-    public double calculateHoHTax(double income){
+    public static double calculateHoHTax(double income){
         double tax;
 
         if (income <= 10950) {
