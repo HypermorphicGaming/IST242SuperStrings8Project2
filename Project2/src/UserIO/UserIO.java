@@ -9,13 +9,13 @@ public class UserIO {
     // displays prompt and returns user's number
     public double getDoubleInput(String prompt) {
         System.out.println(prompt);
-        return
+
     }
 
     // displays prompt and returns user's text
     public String getStringInput(String prompt) {
         System.out.println(prompt);
-        return
+
     }
 
     // displays menu options and returns user choice
