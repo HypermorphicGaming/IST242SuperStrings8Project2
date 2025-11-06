@@ -14,7 +14,7 @@ public class netIncome{
         if(marriedFilingJointly == 1) {
             tax = calculateMFJTax(totalRevenue);
         }else if(marriedFilingJointly == 2){
-            tax = calculateHoHTax(totalRevenue);
+            tax = calculateHoHTax(totalRevenue );
         } else{
             tax = calculateSoMFSTax(totalRevenue);
         }
