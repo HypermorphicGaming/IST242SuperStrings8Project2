@@ -1,10 +1,11 @@
+package insurance;
+
 import java.util.Scanner;
 
-
 public class Insurance {
-    public static void main(String[] args){
+    public static double calculateTotalDeductions(){
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your monthly pre-tax 401k withholding:");
+        System.out.print("Enter your monthly pre-tax 401k withholding: ");
         double preTax401k = input.nextDouble();
 
         System.out.print("Enter your monthly insurance premium: ");
@@ -14,6 +15,6 @@ public class Insurance {
 
         System.out.printf("Total monthly deductions (401k + insurance): $%.2f%n", totalDeductions);
 
-
+        return totalDeductions;
     }
 }

@@ -36,17 +36,17 @@ public class UserIO {
 
         int choice = 0;
         while (true) {
-            System.out.println("Enter your choice (1-" + options.length + "): ");
+            System.out.print("Enter your choice (1-" + options.length + "): ");
             if (scnr.hasNextInt()) {
                 choice = scnr.nextInt();
                 scnr.nextLine();
                 if (choice >= 1 && choice <= options.length) {
                     break;
                 }
-        } else {
+            } else {
                 scnr.nextInt();
             }
-        System.out.println("Invalid choice. Try again.");
+            System.out.println("Invalid choice. Try again.");
         }
         return choice;
     }
